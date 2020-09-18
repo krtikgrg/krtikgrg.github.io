@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link rel="stylesheet" href="../css/education.css" type="text/css">
+        <title>
+            Educational records...
+        </title>
+    </head>
+    <body>
+        <div id="nav">
+			<a class="navb" href="../index.html">Home</a>
+			<a class="navb" href="./blog.html">Blog</a>
+			<a class="navb" href="./education.html">Education</a>
+			<a class="navb" href="./assignment.html">Assignment</a>
+        </div>
+        <script src="../js/navbar.js" type="text/javascript"></script>
+        <h1 id="mhdr">Let us Traverse This lane Together</h1>
+        <h1 class="inhdr">Education</h1>
+        <div id="edu">
+            <table>
+                <thead>
+                    <tr>
+                    <th scope="col">TYPE OF SCHOOLING</th>
+                    <th scope="col">SCHOOL NAME</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>PRIMARY</td>
+                        <td>Model Basic High School Sunam, Punjab</td>
+                    </tr>
+                    <tr>
+                        <td>MIDDLE</td>
+                        <td>D.A.V. Senior Secondary Public School Sunam, Punjab</td>
+                    </tr>
+                    <tr>
+                        <td>SECONDARY</td>
+                        <td>Sidhu Memorial Public School Sheron, Punjab</td>
+                    </tr>
+                    <tr>
+                        <td colspan="2" id="hdr"><b>UNIVERSITY EDUCATION</b></td>
+                    </tr>
+                    <tr>
+                        <td colspan="2">Pursuing My B.Tech From IIIT Hyderabad</td>
+                    </tr>
+                </tbody>
+            </table>
+            <h1 class="inhdr">Skillsets</h1>
+            <ul>
+                <li class="ulli">
+                    Languages I can Speak and Write
+                    <ol>
+                        <li>English</li>
+                        <li>Hindi</li>
+                        <li>Punjabi</li>
+                    </ol>
+                </li>
+                <li class="ulli">
+                    Pragramming languages I have worked with
+                    <ol>
+                        <li>bash</li>
+                        <li>c</li>
+                        <li>c++</li>
+                        <li>html</li>
+                        <li>css</li>
+                        <li>javascript</li>
+                    </ol>
+                </li>
+                <li class="ulli">
+                    Sports
+                    <ol>
+                        <li>Badminton</li>
+                        <li>Volleyball</li>
+                    </ol>
+                </li>
+            </ul>
+            <h1 class="inhdr">Feel like something is missing, Don't worry Add it for me</h1>
+            <form>
+                <table>
+                    <tr>
+                        <td>Your Name please</td>
+                        <td>
+                            <input type="text" id="nme" value="" maxlength="40" placeholder="Name" >
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>Skill Name</td>
+                        <td>
+                            <input type="text" id="skil" value="" maxlength="50" placeholder="skill_name">
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>Skill Level</td>
+                        <td>
+                            <select id="lev" value="Beginner">
+                                <option value="beginner">Beginner</option>
+                                <option value="intermediate">Intermediate</option>
+                                <option value="proficient">Proficient</option>
+                            </select>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>Comments</td>
+                        <td>
+                            <textarea id="cmnt" value="no comments" name="com" cols="20" rows="4" placeholder="comments"></textarea>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td colspan="2">
+                            <button type="button" onclick="func()">submit</button>
+                        </td>
+                    </tr>
+                </table>
+            </form>
+            <table id="en">
+                <thead>
+                    <th class="enh" scope="col">Name</th>
+                    <th class="enh" scope="col">Skill</th>
+                    <th class="enh" scope="col">Level</th>
+                    <th class="enh" scope="col">Comment</th>
+                </thead>
+                <tbody>
+
+                </tbody>
+            </table>
+            <script src="../js/education.js" type="text/javascript"></script>
+        </div>
+	<button onclick="topFunction()" id="myBtn" title="Go to top">Top</button>
+    </body>
+</html>

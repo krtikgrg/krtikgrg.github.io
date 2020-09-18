@@ -1,0 +1,79 @@
+body{
+    background-image: url("https://cdn.pixabay.com/photo/2015/06/25/17/23/landscape-821573_960_720.jpg");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: 100% 100%;
+}
+h1{
+    font-size: 50px;
+    font-weight: bold;
+    text-decoration: underline;
+}
+#nc{
+    margin-top: 25px;
+    font-size: 33px;
+}
+.fa {
+    padding: 20px;
+    font-size: 30px;
+    width: 50px;
+    text-align: center;
+    text-decoration: none;
+  }
+  .fa:hover {
+    opacity: 0.7;
+  }
+  .fa-facebook {
+    background: #3B5998;
+    color: white;
+  }
+  .fa-instagram {
+    background: rgb(189, 38, 63);
+    color:white;
+  }
+  #nav{
+    background-color:#333333;
+    height:auto;
+    top:0;
+}
+.sticky{
+  position:-webkit-sticky;
+  position: sticky;
+}
+.navb{
+    padding: 7px;
+    margin:0px;
+    text-align:center;
+    font-size: 25px;
+    color:white;
+    text-decoration:none;
+    display:inline-block;
+    overflow:hidden;
+}
+.navb:hover{
+    background-color: black;
+}
+@media screen and (max-width:600px){
+  h1{
+    font-size: 38px;
+  }
+  #nc{
+    font-size: 17px;
+  }
+  h2{
+    font-size:20px;
+  }
+  #bdy{
+    width:140px;
+    height:140px;
+  }
+}
+@media screen and (max-width:360px){
+  .fa{
+    width: 20px;
+  }
+  h1{
+    font-size:25px;
+  }
+  
+}

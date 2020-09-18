@@ -1,0 +1,79 @@
+@font-face{
+	font-family: "haettenschweiler";
+}
+body
+{
+	background-image : url(../img/bgmainpage.jpg);
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	background-size: 100% 100%;
+}
+#nav{
+    background-color:#333333;
+    height:auto;
+    top: 0px;
+}
+.sticky{
+    position:-webkit-sticky;
+    position: sticky;
+  }
+.navb{
+    padding: 7px;
+    margin:0px;
+    text-align:center;
+    font-size: 25px;
+    color:white;
+    text-decoration:none;
+    display:inline-block;
+    overflow:hidden;
+}
+.navb:hover{
+    background-color: black;
+}
+#hdr{
+	margin-top:500px;
+}
+#grtwrk{
+    text-align: center;
+    font-size: 20px;
+}
+#m
+{
+	font-size: 100px;
+	color:#c0c0c0;
+	background-color:#000000;
+	opacity:0.5;
+	font-family:"sans-serif";
+	text-align:center;
+}
+#grtwrk{
+    color:#87ceeb;
+}
+@media screen and (max-width:595px){
+    #m{
+        font-size: 50px;
+	color:#c0c0c0;
+	background-color:#000000;
+	opacity:0.5;
+	font-family:"sans-serif";
+	text-align:center;
+    }
+    #hdr{
+        margin-top: 425px;
+    }
+
+}
+@media screen and (max-width:315px){
+    #m{
+        font-size: 23px;
+	color:#c0c0c0;
+	background-color:#000000;
+	opacity:0.5;
+	font-family:"sans-serif";
+	text-align:center;
+    }
+    #hdr{
+        margin-top: 350px;
+    }
+
+}
