@@ -5,11 +5,12 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Kartik's</title>
+    <title>Kartik - Projects Page</title>
     <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400" rel="stylesheet" /> <!-- https://fonts.google.com/ -->
     <link href="css/bootstrap.min.css" rel="stylesheet" /> <!-- https://getbootstrap.com/ -->
     <link href="fontawesome/css/all.min.css" rel="stylesheet" /> <!-- https://fontawesome.com/ -->
     <link href="css/templatemo-diagoona.css" rel="stylesheet" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <style>
         .rotate{
             animation: rotation 4s;
@@ -44,7 +45,6 @@ https://templatemo.com/tm-550-diagoona
             <div class="tm-row pt-4">
                 <div class="tm-col-left">
                     <div class="tm-site-header media">
-                        <!-- <i class="fas fa-umbrella-beach fa-3x mt-1 tm-logo"></i> -->
                         <img style="width: 20%;height: 20%;" class="rotate linear infinite" src="./img/log1.png">
                         <div class="media-body">
                             <h1 class="tm-sitename text-uppercase">KARTIK</h1>
@@ -61,14 +61,14 @@ https://templatemo.com/tm-550-diagoona
                         </button>
                         <div class="collapse navbar-collapse tm-nav" id="navbar-nav">
                             <ul class="navbar-nav text-uppercase">
-                                <li class="nav-item active">
-                                    <a class="nav-link tm-nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+                                <li class="nav-item">
+                                    <a class="nav-link tm-nav-link" href="index.html">Home</a>
                                 </li>
                                 <li class="nav-item">
                                     <a class="nav-link tm-nav-link" href="about.html">About</a>
                                 </li>
-                                <li class="nav-item">
-                                    <a class="nav-link tm-nav-link" href="projects.html">Projects</a>
+                                <li class="nav-item active">
+                                    <a class="nav-link tm-nav-link" href="projects.html">Projects <span class="sr-only">(current)</span></a>
                                 </li>                            
                                 <li class="nav-item">
                                     <a class="nav-link tm-nav-link" href="contact.html">Contact</a>
@@ -82,13 +82,30 @@ https://templatemo.com/tm-550-diagoona
             <div class="tm-row">
                 <div class="tm-col-left"></div>
                 <main class="tm-col-right">
+                    <i class="fa fa-download"></i> 
+                    <a href="Resume.pdf" target="_blank" download="">Download Resume</a>
                     <section class="tm-content">
-                        <h1 class="mb-5 tm-content-title">Developer | Thinker | Student</h1>
-                        <p class="mb-5">This is Kartik, a junior developer trying to fit himself in this vast technological world.</p>
-                        <hr class="mb-5">            
-                        <p class="mb-5">Quote that motivates me:- "You loose your grip, then you slip into the masterpiece" ~SSR.</p>
-                        <p class="mb-5">It makes me to not to think about future and focus on present. And when i am too much confused about something i know i have to loose my grip and thats it.</p>
-                        <a href="about.html" class="btn btn-primary">Continue...</a>
+                        <div class="media my-3 mb-5 tm-service-media tm-service-media-img-l">
+                            <img src="img/MERN_LOGO.png" style="width: 20%;" alt="Image" class="tm-service-img">
+                            <div class="media-body tm-service-text">
+                                <h2 class="mb-4 tm-content-title"><a href="https://github.com/krtikgrg/frosthack2021" target="_blank">Event Management System</a></h2>
+                                <p style="text-align: justify;">A self sufficient Software Application for service providers and customers, where service providers can release information about their services and customers can compare and buy them for an event along with the feature to view all the past and ongoing events. The software also informs the user if any of the services is missing while organising an event.</p>
+                            </div> 
+                        </div>
+                        <div class="media my-3 mb-5 tm-service-media">                            
+                            <div class="media-body tm-service-text">
+                                <h2 class="mb-4 tm-content-title"><a href="https://github.com/krtikgrg/xv6-public">Tweaking XV6</a></h2>
+                                <p style="text-align: justify;">Deep Dived into xv6 OS, originally using Round Robin Scheduler. I tried to improve it by adding other Schedulers like PBS(Priority Based Scheduler), MLFQ(Multi Level Feedback Queue Scheduling) and FCFS(First Come and First Serve Scheduler). The scheduler can be specified while running the intiating command. Some more user commands like waitx and a specific command{benchmark} to compare the performance of all the schedulers were implemented</p>
+                            </div> 
+                            <img src="img/xv6.png" style="width: 50%;" alt="Image" class="tm-service-img-r">
+                        </div>
+                        <div class="media my-3 tm-service-media tm-service-media-img-l">
+                            <img src="img/opengl.png" style="width: 30%;" alt="Image" class="tm-service-img">
+                            <div class="media-body tm-service-text">
+                                <h4 class="mb-4 "><a href="https://github.com/krtikgrg/openGl-game/tree/main">OpenGl Game| Bellman Ford Application</a></h4>
+                                <p style="text-align: justify;">Developed a game using OpenGl following OOPS concepts making real time use of Bellman Ford algorithm to deduce the path for the imposter to reach out to the player. The maze for the game is randomly made and will change each time you launch the game. For rest of the features visit the github repository.</p>
+                            </div> 
+                        </div>                      
                     </section>
                 </main>
             </div>
@@ -106,8 +123,8 @@ https://templatemo.com/tm-550-diagoona
                 <footer class="tm-site-footer text-right">
                     <p class="mb-0">Copyright 2021 @Kartik :p 
                 </footer>
-            </div>  
-        </div>
+            </div>    
+        </div>        
 
         <!-- Diagonal background design -->
         <div class="tm-bg">
@@ -121,4 +138,5 @@ https://templatemo.com/tm-550-diagoona
     <script src="js/jquery.backstretch.min.js"></script>
     <script src="js/templatemo-script.js"></script>
 </body>
+
 </html>
